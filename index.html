@@ -15,9 +15,15 @@
 
 <body>
 		<div  class="container">
-			<img src="./pillarsofeternityfullmap.jpg" class=".img-fluid. max-width: 100%">
-			<a href="" title="" style="position: absolute; left: 42.11%; top: 7.47%; width: 9.96%; height: 5.1%; z-index: 2;"></a><a href="https://pillarsofeternity.gamepedia.com/Durgan%27s_Battery" title="Battery" style="position: absolute; left: 53.79%; top: 10.75%; width: 9.96%; height: 5.34%; z-index: 2;"></a>
-	</div>
+<img src="pillarsofeternityfullmap.jpg" id="map-image" style="width: 1807px; max-width: 100%; height: auto;" alt="" usemap="#map" />
+<map name="map">
+    <area shape="circle" coords="844, 180, 56" href="https://pillarsofeternity.gamepedia.com/Iron_Flail_Fort" title="fort" />
+    <area shape="circle" coords="800, 291, 56" />
+</map>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="imageMapResizer.min.js"></script>
+<script>$(document).ready(function(e){$("map").imageMapResize();});</script>
+</div>
 </body>
 
 </html>
