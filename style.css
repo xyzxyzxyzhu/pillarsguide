@@ -17,6 +17,11 @@ input,select{vertical-align:middle}
 body,html {
 	background-color: #FFF;
 }
+body{
+	background-image: url("pillarsBackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 img.map, map area{
     outline: none;
 }
