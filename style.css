@@ -17,6 +17,9 @@ input,select{vertical-align:middle}
 body,html {
 	background-color: #FFF;
 }
+img.map, map area{
+    outline: none;
+}
 header {
     background: #AEC6CF;
     padding: 20px 30px;

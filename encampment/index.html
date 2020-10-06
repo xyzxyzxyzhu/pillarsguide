@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>World map</title>
+	<link rel="shortcut icon" href="https://static.wikia.nocookie.net/eternitywiki/images/6/64/Favicon.ico/revision/latest?cb=20150612163029">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+<img src="Ar_0701_caravan_encampment.jpg" class="img-responsive center-block" style="width: 1807px; max-width: 100%; height: auto;" alt="world map" usemap="#map" hidefocus="true" />
+<map name="map">
+    <area shape="circle" coords="844, 180, 56" href="https://pillarsofeternity.gamepedia.com/Iron_Flail_Fort" title="fort" />
+    <area shape="circle" coords="800, 291, 56" />
+</map>
+			
+<script src="https://unpkg.com/image-map/dist/image-map.js"></script>
+<script>
+	  ImageMap("img[usemap]", 100);
+</script>
+
+			
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="imageMapResizer.min.js"></script>
+<script>$(document).ready(function(e){$("map").imageMapResize();});</script>
+</body>
+
+</html>
